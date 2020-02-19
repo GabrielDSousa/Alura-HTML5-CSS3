@@ -1,5 +1,6 @@
 # Alura-HTML5-CSS3
 Curso de html5 e css3
+
 # Alura HTML5 and CSS3
 
 This project is trainning for html5 and css3, is a simple project with the basis of the markdown language. Is meant to remember the basis and improve the my skills on front-en developing. Every part will be on a new brach to show the progress of the trainning.
@@ -23,3 +24,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Hat tip to [Alura.com.br](https://alura.com.br) for this trainning
+
