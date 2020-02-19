@@ -1,27 +1,42 @@
-header{
-    background-color: initial;
-}
-
 #banner {
     width: 100%;
 }
 
-.main {
+main{
+    width: 100%;
+}
+
+.main-container {
     background: #cccc;
     padding: 30px;
 }
 
-h1 {
-    padding-left: 20px;
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+
+strong{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 h2,
 h3,
 p {
     text-align: center;
+    padding: 0 0 10px 0;
 }
 
-em strong {
+main em strong {
     color: #ff0000;
 }
 
@@ -29,20 +44,22 @@ em strong {
     font-size: 20px;
 }
 
-ul {
+main ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    margin-right: 25%;
+    margin: 10px 10%;
 }
 
-ul li {
+main ul li {
     font-style: italic;
+    list-style-type: disc;
 }
 
 .benefits {
     background-color: #ffffff;
     padding: 20px;
+    text-align: center;
 }
 
 #benefitsimage {
