@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact - Alura Babershop</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="../src/img/logo.png" alt="minimalist logo of a person with beard and glasses"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="nome@email.com.br" required>
+
+            <label for="phone">Phone number</label>
+            <input type="tel" name="phone" id="phone" placeholder="(xx)xxxxxxxxx" required>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="70" rows="10" required></textarea>
+
+            <fieldset>
+                <legend>I prefer to be contacted by</legend>
+                <label for="radio-email">
+                    <input type="radio" name="contact" id="radio-email">
+                    Email
+                </label>
+
+
+                <label for="radio-phone">
+                    <input type="radio" name="contact" id="radio-phone">
+                    Phone
+                </label>
+
+
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contact" id="radio-whatsapp" checked>
+                    Whatsapp
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>I would like to make an appointment at</legend>
+                <select name="hour" id="hour">
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="night">Night</option>
+                </select>
+            </fieldset>
+
+            <label for="newsletter">
+                <input type="checkbox" name="newsletter" id="newsletter" checked>
+                I would like to receive the newsletter by email
+            </label>
+
+            <input type="submit" value="Enviar formulário">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Hour</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>8h - 20h</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <img src="src/img/logo-branco.png" alt="minimalist logo of a person with beard and glasses">
+        <p>&copy; Copyright Alura Babershop</p>
+    </footer>
+</body>
+
+</html>
