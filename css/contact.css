@@ -3,18 +3,32 @@ form{
 }
 
 form label,
-form input{
+form input,
+form textarea {
     display: block;
 }
 
-form label{
+form label, 
+form legend{
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input{
-    display: block;
+form input,
+form textarea{
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+form input[type="radio"],
+form input[type="checkbox"]{
+    display: inline;
+    margin: 20px 10px 0 0;
+    padding: initial;
+    width: initial;
+}
+
+fieldset{
+    margin: 5px 0 5px 0;
 }
