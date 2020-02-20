@@ -67,6 +67,7 @@ main{
     }
 
     nav{
+        text-align: center;
         position: static;
     }
 
@@ -74,4 +75,5 @@ main{
     #benefitsimage {
         width: 100%!important;
     }
+
 }
