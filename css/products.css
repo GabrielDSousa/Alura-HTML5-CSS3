@@ -43,3 +43,16 @@
     font-weight: bold;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 480px) {
+    #products{
+        width: auto!important;
+    }
+
+    #products li{
+        display: block;
+        width:90%;
+        margin-left: 5%;
+    }
+    
+}

@@ -7,9 +7,6 @@ main{
     background: linear-gradient(#fefefe 30%, #888888 70%);
 }
 
-.container{
-    width: 940px;
-}
 
 h2{
     font-size: 2em;
