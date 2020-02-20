@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #bbbbbb;
     padding: 20px 0;
@@ -48,4 +52,26 @@ footer p {
 main{
     width: 940px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 480px){
+    main,
+    .container,
+    .benefits-container,
+    .video{
+        width: auto!important;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .benefits-container ul,
+    #benefitsimage {
+        width: 100%!important;
+    }
 }
