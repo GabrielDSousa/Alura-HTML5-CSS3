@@ -1,5 +1,4 @@
 # Alura-HTML5-CSS3
-# Alura-JavaScript
 
 This project is trainning for html5 and css3 by [Alura.com.br](https://alura.com.br), is a simple project with the basis of the markdown language. Is meant to remember the basis and improve my skills on front-end developing. Every part will be on a new brach to show the progress of the trainning.
 
