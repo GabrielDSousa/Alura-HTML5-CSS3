@@ -11,7 +11,7 @@ The system is a simple markdown html with css, so to run you will only need to c
 
 ## Built With
 
-* [Visual Studio Code](http://www.dropwizard.io/1.0.2/docs/) - The editor software
+* [Visual Studio Code](https://code.visualstudio.com/) - The editor
 
 ## Authors
 
@@ -19,8 +19,7 @@ The system is a simple markdown html with css, so to run you will only need to c
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+This project is licensed under the MIT License
 ## Acknowledgments
 
 * Hat tip to [Alura.com.br](https://alura.com.br) for this trainning
