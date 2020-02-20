@@ -1,5 +1,5 @@
 # Alura-HTML5-CSS3
-Curso de html5 e css3
+Trainning of html5 and css3 from Alura 
 
 # Alura HTML5 and CSS3
 
